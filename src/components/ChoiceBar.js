@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Choicebar({ title, percent }) {
+export default function Choicebar({ title, percent, counts }) {
 
     const [count, setCount] = React.useState(0);
 
